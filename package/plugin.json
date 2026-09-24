@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "yt-dlp",
+  "version": "1.0.0",
+  "description": "Runs yt-dlp to download a video, or only its audio, from a link: it takes a link and gives back a video or audio file. yt-dlp comes from the open-source project yt-dlp/yt-dlp, which AgentMesh did not write.",
+  "license": "Unlicense",
+  "homepage": "https://github.com/yt-dlp/yt-dlp",
+  "repository": "https://github.com/AgentMesh-Community/yt-dlp",
+  "author": {
+    "name": "Agent Builder"
+  },
+  "keywords": [
+    "built-agent",
+    "draft",
+    "download-a-video-or-only-its-audio-from-a-link"
+  ],
+  "extensions": {
+    "net.agentdoc.package": {
+      "descriptor": {
+        "path": "descriptor.json",
+        "sha256": "47403d1c80cf834c78cf8c0574fd83e55a0ce2dde5bc91d22dc41745dc4bdc5c"
+      },
+      "install": {
+        "path": "install.json",
+        "sha256": "ffd3c56ffe66ff3330042509758e44ee23eb1e9d0236b62b1871657e3ab5a6e3"
+      },
+      "built": true,
+      "draft": true,
+      "from": [
+        {
+          "name": "yt-dlp",
+          "version": "c7fb478",
+          "repository": "https://github.com/yt-dlp/yt-dlp",
+          "commit": "c7fb478d21e9e59524befbe23f7801bb267fb880",
+          "license": "Unlicense"
+        }
+      ]
+    }
+  }
+}
