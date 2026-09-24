@@ -2,22 +2,22 @@
   "agentdoc": "v1",
   "package": {
     "name": "yt-dlp",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "assembled_by": "tools/assemble-agentdoc.mjs --for-repository; assembled from the package, not signed",
   "sources": [
     {
       "id": "descriptor",
       "kind": "agent-descriptor",
-      "digest": "47403d1c80cf834c78cf8c0574fd83e55a0ce2dde5bc91d22dc41745dc4bdc5c",
-      "agent_version": "1.0.0",
+      "digest": "bd22224ae54ee0ecb9bf3f9bee40732d189c6e522d49207c9a2148975f5f9a78",
+      "agent_version": "1.0.1",
       "signature": "unsigned"
     },
     {
       "id": "package",
       "kind": "plugin-package",
-      "digest": "3de86515584d7befd7ac965d1165efefc98520dd3d31e60498f04018954e9536",
-      "agent_version": "1.0.0",
+      "digest": "a941458082b8817d10dac9a9b977fdac97de6b6b00535c4d0002148fbdc2d611",
+      "agent_version": "1.0.1",
       "signature": "unsigned"
     }
   ],
@@ -47,7 +47,7 @@
           "does": "Runs yt-dlp on a link and hands back a video or audio file.",
           "inputs": [
             {
-              "name": "link",
+              "name": "link, attached, or written in the message",
               "kind": "url",
               "required": true
             }

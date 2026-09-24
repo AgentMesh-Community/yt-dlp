@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "yt-dlp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Runs yt-dlp to download a video, or only its audio, from a link: it takes a link and gives back a video or audio file. yt-dlp comes from the open-source project yt-dlp/yt-dlp, which AgentMesh did not write.",
   "license": "Unlicense",
   "homepage": "https://github.com/yt-dlp/yt-dlp",
@@ -18,7 +18,7 @@
     "net.agentdoc.package": {
       "descriptor": {
         "path": "descriptor.json",
-        "sha256": "47403d1c80cf834c78cf8c0574fd83e55a0ce2dde5bc91d22dc41745dc4bdc5c"
+        "sha256": "bd22224ae54ee0ecb9bf3f9bee40732d189c6e522d49207c9a2148975f5f9a78"
       },
       "install": {
         "path": "install.json",

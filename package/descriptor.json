@@ -1,6 +1,6 @@
 {
   "format": "agent-descriptor-v1",
-  "agent_version": "1.0.0",
+  "agent_version": "1.0.1",
   "does": "Runs yt-dlp to download a video, or only its audio, from a link: it takes a link and gives back a video or audio file. yt-dlp comes from the open-source project yt-dlp/yt-dlp, which AgentMesh did not write.",
   "offerings": [
     {
@@ -9,7 +9,7 @@
       "does": "Runs yt-dlp on a link and hands back a video or audio file.",
       "inputs": [
         {
-          "name": "link",
+          "name": "link, attached, or written in the message",
           "kind": "url",
           "required": true
         }
